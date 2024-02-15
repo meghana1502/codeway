@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('file:///C:/Users/meghana/Desktop/landing%20page/tnc_78307461_preview_cropped+(3).jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo img {
+    height: 40px; /* Adjust height as needed */
+}
+.tourist-spot {
+    color: white;
+    margin-left: 10px;
+    font-size: 30px; /* Adjust the margin as needed */
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+ul li a:hover {
+    color: #f0f0f0;
+}
+
+.deskripsi {
+    color: #fff;
+    text-align: center  ;
+    margin-top: 100px; /* Adjust margin-top as needed */
+}
+
+.deskripsi p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.deskripsi a {
+    color: #fff;
+    font-size: 24px;
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+}
